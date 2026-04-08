@@ -1,0 +1,52 @@
+[
+  {
+    "titulo": "Estágio Frontend",
+    "empresa": "WebTech",
+    "local": "Remoto",
+    "nivel": "estagio",
+    "descricao": "Auxiliar no desenvolvimento de interfaces web utilizando HTML, CSS e JavaScript.",
+    "skills": ["html", "css", "javascript"],
+    "diferenciais": ["responsividade", "git"],
+    "salario": "R$ 1.200"
+  },
+  {
+    "titulo": "Estágio Backend Python",
+    "empresa": "DataCorp",
+    "local": "São Paulo",
+    "nivel": "estagio",
+    "descricao": "Apoiar no desenvolvimento de APIs com Python e Flask e integração com banco de dados.",
+    "skills": ["python", "flask"],
+    "diferenciais": ["api rest", "sql"],
+    "salario": "R$ 1.500"
+  },
+  {
+    "titulo": "Desenvolvedor Java Júnior",
+    "empresa": "Enterprise Systems",
+    "local": "Belo Horizonte",
+    "nivel": "junior",
+    "descricao": "Desenvolvimento e manutenção de sistemas utilizando Java e orientação a objetos.",
+    "skills": ["java"],
+    "diferenciais": ["spring", "oop"],
+    "salario": "R$ 3.000"
+  },
+  {
+    "titulo": "Desenvolvedor Full Stack",
+    "empresa": "StartupX",
+    "local": "Remoto",
+    "nivel": "junior",
+    "descricao": "Atuar no desenvolvimento frontend e backend de aplicações web completas.",
+    "skills": ["html", "css", "javascript", "python", "flask"],
+    "diferenciais": ["react", "git"],
+    "salario": "R$ 3.500"
+  },
+  {
+    "titulo": "Estágio em Dados",
+    "empresa": "Data Insights",
+    "local": "Remoto",
+    "nivel": "estagio",
+    "descricao": "Auxiliar na análise de dados e consultas em banco utilizando SQL.",
+    "skills": ["sql"],
+    "diferenciais": ["excel", "python"],
+    "salario": "R$ 1.300"
+  }
+]
