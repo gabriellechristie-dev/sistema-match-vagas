@@ -1,68 +1,114 @@
-# formatação de texto (falta mais formatações)
+from flask import Flask, render_template, request, jsonify
+import json
+import unicodedata
+import string
+
+app = Flask(__name__)
+
+# ----------------------
+# FRONT
+# ----------------------
+@app.route("/")
+def home():
+    return render_template("index.html")
+
+
+# ----------------------
+# NORMALIZAÇÃO 
+# ----------------------
 def normalizar(texto):
     texto = texto.lower()
-    texto = texto.strip()
-    texto = texto.replace(",","")
+
+    # remove acentos
+    texto = unicodedata.normalize("NFKD", texto)
+    texto = "".join([c for c in texto if not unicodedata.combining(c)])
+
+    # remove pontuação
+    texto = texto.translate(str.maketrans("", "", string.punctuation))
 
     lista = texto.split()
 
-
-    
+    # remove duplicados
     lista_limpa = []
     for palavra in lista:
-        palavra_limpa = palavra.strip()
-        lista_limpa.append(palavra_limpa)
+        if palavra not in lista_limpa:
+            lista_limpa.append(palavra)
 
     return lista_limpa
- 
-# calcular match
-def calcular_match(skills_usuario,skills_vagas):
+
+
+# ----------------------
+# MATCH DE SKILLS
+# ----------------------
+def calcular_match(skills_usuario, skills_vagas):
     lista_usuario = normalizar(skills_usuario)
     lista_vagas = normalizar(skills_vagas)
-    lista_comuns = []
+
+    comuns = []
+
     for skill in lista_usuario:
         if skill in lista_vagas:
-            lista_comuns.append(skill)
-    total_comuns = len(lista_comuns)
+            comuns.append(skill)
+
+    total_comuns = len(comuns)
     total_vagas = len(lista_vagas)
-    if total_vagas > 0:
-        porcentagem = (total_comuns/total_vagas)*100
-        return porcentagem, lista_comuns
-    else:
-        porcentagem = 0
-        lista_comuns = []
-        return porcentagem, lista_comuns
 
-# carregar vagas 
-import json
+    if total_vagas == 0:
+        return 0, []
 
+    porcentagem = (total_comuns / total_vagas) * 100
+
+    return porcentagem, comuns
+
+
+# ----------------------
+# CARREGA VAGAS
+# ----------------------
 def buscar_vagas():
-    with open("vagas.json") as arquivo:
-        vagas = json.load(arquivo)
-    return vagas
+    with open("vagas.json", "r", encoding="utf-8") as arquivo:
+        return json.load(arquivo)
 
-# processar busca 
-def processar_busca():
+
+# ----------------------
+# PROCESSA BUSCA
+# ----------------------
+def processar_busca(skills_usuario):
     vagas = buscar_vagas()
     resultado = []
 
-    skills_usuario = input("Digite suas skills: ")
-    lista_skills_usuario = skills_usuario.split()
-
     for vaga in vagas:
-        titulo_vaga = vaga["titulo"]
+        titulo = vaga["titulo"]
         skills_vaga = vaga["skills"]
 
-        porcentagem, comuns = calcular_match(lista_skills_usuario, skills_vaga)
+        porcentagem, comuns = calcular_match(skills_usuario, skills_vaga)
 
-        item = {
-            "titulo": titulo_vaga,
+        resultado.append({
+            "titulo": titulo,
             "porcentagem": porcentagem,
             "skills_comuns": comuns
-        }
+        })
 
-        resultado.append(item)
-
-    resultado_ordenado = sorted(resultado, key=lambda x: x["porcentagem"], reverse=True)
+    resultado_ordenado = sorted(
+        resultado,
+        key=lambda x: x["porcentagem"],
+        reverse=True
+    )
 
     return resultado_ordenado
+
+
+# ----------------------
+# API BUSCAR
+# ----------------------
+@app.route("/buscar", methods=["POST"])
+def buscar():
+    skills = request.form["skills"]
+    resultado = processar_busca(skills)
+    return jsonify(resultado)
+
+
+# ----------------------
+# RODAR APP
+# ----------------------
+if __name__ == "__main__":
+    app.run(debug=True)
