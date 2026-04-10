@@ -1,4 +1,4 @@
-#  Sistema de Match de Vagas (Full Stack)
+#  Sistema de Match de Vagas
 
 Projeto em desenvolvimento
 
@@ -22,7 +22,7 @@ O usuário informa suas skills, e o sistema:
 ### Backend
 
 * Python
-* Flask (em implementação)
+* Flask 
 
 ### Frontend
 
