@@ -26,9 +26,9 @@ O usuário informa suas skills, e o sistema:
 
 ### Frontend
 
-* HTML (em implementação)
-* CSS (em implementação)
-* JavaScript (em implementação)
+* HTML 
+* CSS 
+* JavaScript 
 
 ### Dados
 
@@ -45,13 +45,14 @@ O usuário informa suas skills, e o sistema:
 * Comparação de skills
 * Cálculo de match (%)
 * Ordenação dos resultados
-
+* Integração com Flask
+* Interface web com formulário
+  
 ---
 
 ##  Em desenvolvimento
 
-* Integração com Flask
-* Interface web com formulário
+
 * Exibição dinâmica dos resultados
 
 ---
