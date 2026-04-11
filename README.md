@@ -47,17 +47,11 @@ O usuário informa suas skills, e o sistema:
 * Ordenação dos resultados
 * Integração com Flask
 * Interface web com formulário
-  
+* Exibição dinâmica dos resultados
 ---
 
 ##  Em desenvolvimento
 
-
-* Exibição dinâmica dos resultados
-
----
-
-##  Evolução planejada
 
 * Substituir JSON por API real de vagas
 * Criar endpoints REST
