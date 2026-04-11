@@ -1,72 +1,68 @@
-#  Sistema de Match de Vagas
+#  Match de Vagas
 
-Projeto em desenvolvimento
+Sistema de busca e recomendação de vagas baseado em compatibilidade de skills.
 
-Aplicação que compara as skills do usuário com vagas cadastradas e calcula o nível de compatibilidade, com evolução para interface web e integração com APIs.
-
----
-
-##  Como funciona
-
-O usuário informa suas skills, e o sistema:
-
-* Normaliza os dados de entrada
-* Compara com as skills das vagas
-* Calcula a porcentagem de compatibilidade
-* Retorna as vagas ordenadas da maior para a menor correspondência
+O projeto foi desenvolvido como prática de lógica de programação, manipulação de dados e integração entre frontend e backend utilizando Python (Flask) e JavaScript.
 
 ---
 
-## ⚙️ Tecnologias
+## Funcionalidades
 
-### Backend
-
-* Python
-* Flask 
-
-### Frontend
-
-* HTML 
-* CSS 
-* JavaScript 
-
-### Dados
-
-* JSON (atual)
-* API de vagas (planejado)
-
+- Busca de vagas por skills digitadas pelo usuário
+- Sistema de match com porcentagem de compatibilidade
+- Ordenação automática das vagas por relevância
+- Destaque visual para melhores matches
+- Interface dinâmica com atualização em tempo real
+- Normalização de texto (remoção de acentos e pontuação)
 
 ---
 
-##  Funcionalidades atuais
+## Como funciona
 
-* Leitura de vagas via JSON
-* Normalização de texto
-* Comparação de skills
-* Cálculo de match (%)
-* Ordenação dos resultados
-* Integração com Flask
-* Interface web com formulário
-* Exibição dinâmica dos resultados
----
+O sistema compara as skills informadas pelo usuário com as skills de cada vaga e calcula uma porcentagem de compatibilidade.
 
-##  Em desenvolvimento
-
-
-* Substituir JSON por API real de vagas
-* Criar endpoints REST
-* Melhorar experiência do usuário (UX/UI)
-* Implementar filtros (nível, localização, etc)
+Quanto mais skills em comum, maior o match.
 
 ---
 
+##  Tecnologias utilizadas
 
-## 💡 Objetivo do projeto
-
-Praticar desenvolvimento full stack, manipulação de dados e construção de um sistema realista de recomendação de vagas.
+- Python
+- Flask
+- JavaScript
+- HTML
+- CSS
 
 ---
 
-## Status
+##  Estrutura do projeto
 
-Em desenvolvimento ativo — evoluindo de versão CLI para aplicação web completa.
+- `vagas.py` → Backend Flask com lógica de match
+- `vagas.json` → Base de dados simulada de vagas
+- `templates/index.html` → Interface principal
+- `static/script.js` → Lógica do frontend
+- `static/style.css` → Estilização da interface
+
+---
+
+## 🎯 Objetivo do projeto
+
+Este projeto foi desenvolvido com foco em:
+
+- Praticar lógica de programação aplicada
+- Trabalhar com manipulação de dados
+- Criar um sistema simples de recomendação
+- Integrar frontend com backend
+- Simular um sistema real de busca de vagas
+
+---
+
+##  Observação
+
+As vagas utilizadas são simuladas (dados fictícios) com objetivo de estudo e prática de desenvolvimento.
+
+---
+
+##  Autor
+
+Desenvolvido por Gabrielle Christie como projeto de estudo em Análise e Desenvolvimento de Sistemas.
