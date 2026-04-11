@@ -14,21 +14,23 @@ def home():
 
 
 # ----------------------
-# NORMALIZAÇÃO 
+# NORMALIZAÇÃO
 # ----------------------
 def normalizar(texto):
+
+    # aceita lista ou string
+    if isinstance(texto, list):
+        texto = " ".join(texto)
+
     texto = texto.lower()
 
-    # remove acentos
     texto = unicodedata.normalize("NFKD", texto)
     texto = "".join([c for c in texto if not unicodedata.combining(c)])
 
-    # remove pontuação
     texto = texto.translate(str.maketrans("", "", string.punctuation))
 
     lista = texto.split()
 
-    # remove duplicados
     lista_limpa = []
     for palavra in lista:
         if palavra not in lista_limpa:
@@ -38,31 +40,24 @@ def normalizar(texto):
 
 
 # ----------------------
-# MATCH DE SKILLS
+# MATCH
 # ----------------------
 def calcular_match(skills_usuario, skills_vagas):
     lista_usuario = normalizar(skills_usuario)
     lista_vagas = normalizar(skills_vagas)
 
-    comuns = []
+    comuns = [s for s in lista_usuario if s in lista_vagas]
 
-    for skill in lista_usuario:
-        if skill in lista_vagas:
-            comuns.append(skill)
-
-    total_comuns = len(comuns)
-    total_vagas = len(lista_vagas)
-
-    if total_vagas == 0:
+    if len(lista_vagas) == 0:
         return 0, []
 
-    porcentagem = (total_comuns / total_vagas) * 100
+    porcentagem = (len(comuns) / len(lista_vagas)) * 100
 
     return porcentagem, comuns
 
 
 # ----------------------
-# CARREGA VAGAS
+# CARREGAR JSON
 # ----------------------
 def buscar_vagas():
     with open("vagas.json", "r", encoding="utf-8") as arquivo:
@@ -70,45 +65,38 @@ def buscar_vagas():
 
 
 # ----------------------
-# PROCESSA BUSCA
+# PROCESSAR
 # ----------------------
 def processar_busca(skills_usuario):
     vagas = buscar_vagas()
     resultado = []
 
     for vaga in vagas:
-        titulo = vaga["titulo"]
-        skills_vaga = vaga["skills"]
-
-        porcentagem, comuns = calcular_match(skills_usuario, skills_vaga)
+        porcentagem, comuns = calcular_match(skills_usuario, vaga.get("skills", []))
 
         resultado.append({
-            "titulo": titulo,
+            "titulo": vaga.get("titulo", "Sem título"),
+            "empresa": vaga.get("empresa", "Não informado"),
+            "local": vaga.get("local", "Não informado"),
             "porcentagem": porcentagem,
             "skills_comuns": comuns
         })
 
-    resultado_ordenado = sorted(
-        resultado,
-        key=lambda x: x["porcentagem"],
-        reverse=True
-    )
-
-    return resultado_ordenado
+    return sorted(resultado, key=lambda x: x["porcentagem"], reverse=True)
 
 
 # ----------------------
-# API BUSCAR
+# API
 # ----------------------
 @app.route("/buscar", methods=["POST"])
 def buscar():
-    skills = request.form["skills"]
+    skills = request.form.get("skills", "")
     resultado = processar_busca(skills)
     return jsonify(resultado)
 
 
 # ----------------------
-# RODAR APP
+# RUN
 # ----------------------
 if __name__ == "__main__":
     app.run(debug=True)
