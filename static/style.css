@@ -1,65 +1,92 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #0f172a;
-    color: #f1f5f9;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+  font-family: Arial, sans-serif;
+  background: #000000;
+  color: #e5e7eb;
+  margin: 0;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
-    width: 400px;
-    background: #1e293b;
-    padding: 20px;
-    border-radius: 10px;
+  width: 100%;
+  max-width: 650px;
+  background: #0f0f0f;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #1f1f1f;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  color: #9ca3af;
 }
 
 input {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 5px;
-    border: none;
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #2a2a2a;
+  background: #111111;
+  color: white;
+  outline: none;
+}
+
+input:focus {
+  border-color: #38bdf8;
 }
 
 button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    background: #38bdf8;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 button:hover {
-    background: #0ea5e9;
+  background: #1d4ed8;
 }
 
 #resultado {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .vaga {
-    background: #334155;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
+  background: #111111;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #2a2a2a;
+  transition: 0.2s;
 }
 
-.vaga {
-    background: #334155;
-    padding: 12px;
-    border-radius: 6px;
-    margin-bottom: 10px;
+.vaga:hover {
+  transform: translateY(-2px);
+  border-color: #38bdf8;
+}
+
+.vaga h3 {
+  margin: 0 0 8px 0;
+  color: #60a5fa;
+}
+
+.vaga p {
+  margin: 4px 0;
+  color: #d1d5db;
 }
 
 .vaga.destaque {
-    border: 2px solid #22c55e;
-    background: #1e293b;
+  border: 2px solid #22c55e;
 }

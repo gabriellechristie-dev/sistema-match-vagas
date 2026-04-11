@@ -1,52 +1,1715 @@
 [
   {
-    "titulo": "Estágio Frontend",
-    "empresa": "WebTech",
-    "local": "Remoto",
-    "nivel": "estagio",
-    "descricao": "Auxiliar no desenvolvimento de interfaces web utilizando HTML, CSS e JavaScript.",
-    "skills": ["html", "css", "javascript"],
-    "diferenciais": ["responsividade", "git"],
-    "salario": "R$ 1.200"
+    "titulo": "Backend Junior",
+    "empresa": "CodeFactory",
+    "local": "Curitiba",
+    "nivel": "junior",
+    "descricao": "Vaga de backend junior atuando com desenvolvimento de software.",
+    "skills": [
+      "git",
+      "node",
+      "excel"
+    ],
+    "diferenciais": [
+      "pandas",
+      "power bi",
+      "agile"
+    ],
+    "salario": "R$ 3096"
   },
   {
-    "titulo": "Estágio Backend Python",
+    "titulo": "Frontend Junior",
+    "empresa": "DevHouse",
+    "local": "São Paulo",
+    "nivel": "junior",
+    "descricao": "Vaga de frontend junior atuando com desenvolvimento de software.",
+    "skills": [
+      "docker",
+      "excel",
+      "java",
+      "css"
+    ],
+    "diferenciais": [
+      "agile"
+    ],
+    "salario": "R$ 4802"
+  },
+  {
+    "titulo": "Backend Junior",
+    "empresa": "InsightLab",
+    "local": "Florianópolis",
+    "nivel": "junior",
+    "descricao": "Vaga de backend junior atuando com desenvolvimento de software.",
+    "skills": [
+      "excel",
+      "sql",
+      "css"
+    ],
+    "diferenciais": [
+      "responsividade",
+      "power bi"
+    ],
+    "salario": "R$ 3828"
+  },
+  {
+    "titulo": "Full Stack Junior",
+    "empresa": "DevHouse",
+    "local": "Florianópolis",
+    "nivel": "junior",
+    "descricao": "Vaga de full stack junior atuando com desenvolvimento de software.",
+    "skills": [
+      "docker",
+      "python"
+    ],
+    "diferenciais": [
+      "clean code",
+      "api rest",
+      "responsividade"
+    ],
+    "salario": "R$ 3136"
+  },
+  {
+    "titulo": "Estágio QA Tester",
+    "empresa": "Tech Solutions",
+    "local": "Curitiba",
+    "nivel": "junior",
+    "descricao": "Vaga de estágio qa tester atuando com desenvolvimento de software.",
+    "skills": [
+      "node",
+      "flask",
+      "sql"
+    ],
+    "diferenciais": [
+      "responsividade",
+      "figma"
+    ],
+    "salario": "R$ 3611"
+  },
+  {
+    "titulo": "Estágio Frontend",
+    "empresa": "InsightLab",
+    "local": "Belo Horizonte",
+    "nivel": "estagio",
+    "descricao": "Vaga de estágio frontend atuando com desenvolvimento de software.",
+    "skills": [
+      "flask",
+      "docker",
+      "java",
+      "css"
+    ],
+    "diferenciais": [
+      "pandas",
+      "responsividade"
+    ],
+    "salario": "R$ 4503"
+  },
+  {
+    "titulo": "Estágio Frontend",
+    "empresa": "Pixel Studio",
+    "local": "Florianópolis",
+    "nivel": "estagio",
+    "descricao": "Vaga de estágio frontend atuando com desenvolvimento de software.",
+    "skills": [
+      "react",
+      "node"
+    ],
+    "diferenciais": [
+      "figma",
+      "responsividade",
+      "power bi"
+    ],
+    "salario": "R$ 4528"
+  },
+  {
+    "titulo": "Frontend Junior",
+    "empresa": "CloudNet",
+    "local": "São Paulo",
+    "nivel": "estagio",
+    "descricao": "Vaga de frontend junior atuando com desenvolvimento de software.",
+    "skills": [
+      "excel",
+      "flask"
+    ],
+    "diferenciais": [
+      "api rest",
+      "pandas",
+      "power bi"
+    ],
+    "salario": "R$ 4653"
+  },
+  {
+    "titulo": "Desenvolvedor Java Junior",
+    "empresa": "NextSoft",
+    "local": "Florianópolis",
+    "nivel": "junior",
+    "descricao": "Vaga de desenvolvedor java junior atuando com desenvolvimento de software.",
+    "skills": [
+      "git",
+      "flask",
+      "node"
+    ],
+    "diferenciais": [
+      "testes"
+    ],
+    "salario": "R$ 3645"
+  },
+  {
+    "titulo": "Desenvolvedor Python Junior",
+    "empresa": "StartupX",
+    "local": "Rio de Janeiro",
+    "nivel": "junior",
+    "descricao": "Vaga de desenvolvedor python junior atuando com desenvolvimento de software.",
+    "skills": [
+      "flask",
+      "git",
+      "docker"
+    ],
+    "diferenciais": [
+      "power bi",
+      "oop"
+    ],
+    "salario": "R$ 1239"
+  },
+  {
+    "titulo": "Estágio Frontend",
+    "empresa": "CodeFactory",
+    "local": "Florianópolis",
+    "nivel": "junior",
+    "descricao": "Vaga de estágio frontend atuando com desenvolvimento de software.",
+    "skills": [
+      "docker",
+      "react",
+      "python"
+    ],
+    "diferenciais": [
+      "api rest",
+      "oop"
+    ],
+    "salario": "R$ 4373"
+  },
+  {
+    "titulo": "Estágio QA Tester",
+    "empresa": "Tech Solutions",
+    "local": "Remoto",
+    "nivel": "estagio",
+    "descricao": "Vaga de estágio qa tester atuando com desenvolvimento de software.",
+    "skills": [
+      "react",
+      "sql"
+    ],
+    "diferenciais": [
+      "oop",
+      "testes"
+    ],
+    "salario": "R$ 2921"
+  },
+  {
+    "titulo": "Full Stack Junior",
+    "empresa": "InsightLab",
+    "local": "Rio de Janeiro",
+    "nivel": "estagio",
+    "descricao": "Vaga de full stack junior atuando com desenvolvimento de software.",
+    "skills": [
+      "java",
+      "javascript",
+      "css",
+      "html"
+    ],
+    "diferenciais": [
+      "agile",
+      "power bi",
+      "testes"
+    ],
+    "salario": "R$ 3231"
+  },
+  {
+    "titulo": "Analista de Dados Junior",
+    "empresa": "WebTech",
+    "local": "São Paulo",
+    "nivel": "estagio",
+    "descricao": "Vaga de analista de dados junior atuando com desenvolvimento de software.",
+    "skills": [
+      "python",
+      "javascript",
+      "sql"
+    ],
+    "diferenciais": [
+      "pandas",
+      "api rest",
+      "agile"
+    ],
+    "salario": "R$ 1298"
+  },
+  {
+    "titulo": "Desenvolvedor Java Junior",
+    "empresa": "DevHouse",
+    "local": "Rio de Janeiro",
+    "nivel": "junior",
+    "descricao": "Vaga de desenvolvedor java junior atuando com desenvolvimento de software.",
+    "skills": [
+      "css",
+      "html",
+      "java"
+    ],
+    "diferenciais": [
+      "pandas",
+      "agile"
+    ],
+    "salario": "R$ 4426"
+  },
+  {
+    "titulo": "Desenvolvedor Java Junior",
+    "empresa": "WebTech",
+    "local": "Rio de Janeiro",
+    "nivel": "estagio",
+    "descricao": "Vaga de desenvolvedor java junior atuando com desenvolvimento de software.",
+    "skills": [
+      "docker",
+      "java",
+      "node",
+      "sql"
+    ],
+    "diferenciais": [
+      "scrum",
+      "testes",
+      "figma"
+    ],
+    "salario": "R$ 1729"
+  },
+  {
+    "titulo": "Estágio QA Tester",
+    "empresa": "NextSoft",
+    "local": "Belo Horizonte",
+    "nivel": "estagio",
+    "descricao": "Vaga de estágio qa tester atuando com desenvolvimento de software.",
+    "skills": [
+      "git",
+      "node",
+      "sql"
+    ],
+    "diferenciais": [
+      "clean code",
+      "api rest",
+      "agile"
+    ],
+    "salario": "R$ 4609"
+  },
+  {
+    "titulo": "Estágio Backend",
+    "empresa": "CloudNet",
+    "local": "Florianópolis",
+    "nivel": "junior",
+    "descricao": "Vaga de estágio backend atuando com desenvolvimento de software.",
+    "skills": [
+      "java",
+      "node"
+    ],
+    "diferenciais": [
+      "oop"
+    ],
+    "salario": "R$ 3631"
+  },
+  {
+    "titulo": "Desenvolvedor Mobile Junior",
+    "empresa": "StartupX",
+    "local": "São Paulo",
+    "nivel": "estagio",
+    "descricao": "Vaga de desenvolvedor mobile junior atuando com desenvolvimento de software.",
+    "skills": [
+      "flask",
+      "css"
+    ],
+    "diferenciais": [
+      "scrum",
+      "responsividade",
+      "oop"
+    ],
+    "salario": "R$ 3061"
+  },
+  {
+    "titulo": "Desenvolvedor Mobile Junior",
+    "empresa": "NextSoft",
+    "local": "Florianópolis",
+    "nivel": "estagio",
+    "descricao": "Vaga de desenvolvedor mobile junior atuando com desenvolvimento de software.",
+    "skills": [
+      "git",
+      "sql"
+    ],
+    "diferenciais": [
+      "clean code",
+      "power bi",
+      "testes"
+    ],
+    "salario": "R$ 3954"
+  },
+  {
+    "titulo": "Analista de Dados Junior",
+    "empresa": "NextSoft",
+    "local": "Florianópolis",
+    "nivel": "junior",
+    "descricao": "Vaga de analista de dados junior atuando com desenvolvimento de software.",
+    "skills": [
+      "docker",
+      "flask",
+      "python",
+      "java"
+    ],
+    "diferenciais": [
+      "oop"
+    ],
+    "salario": "R$ 2969"
+  },
+  {
+    "titulo": "Frontend Junior",
+    "empresa": "CodeFactory",
+    "local": "São Paulo",
+    "nivel": "estagio",
+    "descricao": "Vaga de frontend junior atuando com desenvolvimento de software.",
+    "skills": [
+      "css",
+      "sql",
+      "javascript"
+    ],
+    "diferenciais": [
+      "scrum",
+      "figma"
+    ],
+    "salario": "R$ 4311"
+  },
+  {
+    "titulo": "Estágio Frontend",
+    "empresa": "DataCorp",
+    "local": "Rio de Janeiro",
+    "nivel": "estagio",
+    "descricao": "Vaga de estágio frontend atuando com desenvolvimento de software.",
+    "skills": [
+      "css",
+      "git",
+      "excel"
+    ],
+    "diferenciais": [
+      "clean code",
+      "agile",
+      "responsividade"
+    ],
+    "salario": "R$ 4108"
+  },
+  {
+    "titulo": "Estágio Frontend",
+    "empresa": "Tech Solutions",
+    "local": "Rio de Janeiro",
+    "nivel": "junior",
+    "descricao": "Vaga de estágio frontend atuando com desenvolvimento de software.",
+    "skills": [
+      "react",
+      "flask",
+      "git"
+    ],
+    "diferenciais": [
+      "agile",
+      "pandas",
+      "power bi"
+    ],
+    "salario": "R$ 2076"
+  },
+  {
+    "titulo": "Estágio Frontend",
+    "empresa": "CodeFactory",
+    "local": "Rio de Janeiro",
+    "nivel": "estagio",
+    "descricao": "Vaga de estágio frontend atuando com desenvolvimento de software.",
+    "skills": [
+      "excel",
+      "html"
+    ],
+    "diferenciais": [
+      "agile",
+      "api rest",
+      "responsividade"
+    ],
+    "salario": "R$ 3156"
+  },
+  {
+    "titulo": "Desenvolvedor Python Junior",
+    "empresa": "NextSoft",
+    "local": "Belo Horizonte",
+    "nivel": "estagio",
+    "descricao": "Vaga de desenvolvedor python junior atuando com desenvolvimento de software.",
+    "skills": [
+      "excel",
+      "git",
+      "flask"
+    ],
+    "diferenciais": [
+      "figma"
+    ],
+    "salario": "R$ 3428"
+  },
+  {
+    "titulo": "Estágio QA Tester",
+    "empresa": "DataCorp",
+    "local": "Rio de Janeiro",
+    "nivel": "junior",
+    "descricao": "Vaga de estágio qa tester atuando com desenvolvimento de software.",
+    "skills": [
+      "html",
+      "node"
+    ],
+    "diferenciais": [
+      "agile",
+      "power bi",
+      "scrum"
+    ],
+    "salario": "R$ 3759"
+  },
+  {
+    "titulo": "Frontend Junior",
+    "empresa": "Tech Solutions",
+    "local": "Remoto",
+    "nivel": "estagio",
+    "descricao": "Vaga de frontend junior atuando com desenvolvimento de software.",
+    "skills": [
+      "react",
+      "html"
+    ],
+    "diferenciais": [
+      "agile",
+      "api rest"
+    ],
+    "salario": "R$ 2128"
+  },
+  {
+    "titulo": "Estágio QA Tester",
+    "empresa": "DevHouse",
+    "local": "São Paulo",
+    "nivel": "junior",
+    "descricao": "Vaga de estágio qa tester atuando com desenvolvimento de software.",
+    "skills": [
+      "java",
+      "git",
+      "docker",
+      "excel"
+    ],
+    "diferenciais": [
+      "pandas",
+      "clean code",
+      "agile"
+    ],
+    "salario": "R$ 4216"
+  },
+  {
+    "titulo": "Estágio Backend",
+    "empresa": "NextSoft",
+    "local": "São Paulo",
+    "nivel": "junior",
+    "descricao": "Vaga de estágio backend atuando com desenvolvimento de software.",
+    "skills": [
+      "sql",
+      "css"
+    ],
+    "diferenciais": [
+      "api rest"
+    ],
+    "salario": "R$ 1925"
+  },
+  {
+    "titulo": "Analista de Dados Junior",
+    "empresa": "InsightLab",
+    "local": "Florianópolis",
+    "nivel": "estagio",
+    "descricao": "Vaga de analista de dados junior atuando com desenvolvimento de software.",
+    "skills": [
+      "html",
+      "docker",
+      "sql",
+      "git"
+    ],
+    "diferenciais": [
+      "api rest",
+      "scrum",
+      "power bi"
+    ],
+    "salario": "R$ 3763"
+  },
+  {
+    "titulo": "Frontend Junior",
+    "empresa": "Pixel Studio",
+    "local": "Florianópolis",
+    "nivel": "junior",
+    "descricao": "Vaga de frontend junior atuando com desenvolvimento de software.",
+    "skills": [
+      "git",
+      "javascript",
+      "node",
+      "flask"
+    ],
+    "diferenciais": [
+      "scrum",
+      "figma"
+    ],
+    "salario": "R$ 3266"
+  },
+  {
+    "titulo": "Desenvolvedor Mobile Junior",
+    "empresa": "NextSoft",
+    "local": "Remoto",
+    "nivel": "junior",
+    "descricao": "Vaga de desenvolvedor mobile junior atuando com desenvolvimento de software.",
+    "skills": [
+      "git",
+      "javascript",
+      "docker",
+      "css"
+    ],
+    "diferenciais": [
+      "agile",
+      "pandas",
+      "api rest"
+    ],
+    "salario": "R$ 2380"
+  },
+  {
+    "titulo": "Desenvolvedor Java Junior",
+    "empresa": "CodeFactory",
+    "local": "Curitiba",
+    "nivel": "estagio",
+    "descricao": "Vaga de desenvolvedor java junior atuando com desenvolvimento de software.",
+    "skills": [
+      "sql",
+      "python"
+    ],
+    "diferenciais": [
+      "figma"
+    ],
+    "salario": "R$ 4191"
+  },
+  {
+    "titulo": "Backend Junior",
+    "empresa": "NextSoft",
+    "local": "Rio de Janeiro",
+    "nivel": "junior",
+    "descricao": "Vaga de backend junior atuando com desenvolvimento de software.",
+    "skills": [
+      "java",
+      "react"
+    ],
+    "diferenciais": [
+      "testes",
+      "agile"
+    ],
+    "salario": "R$ 4152"
+  },
+  {
+    "titulo": "Desenvolvedor Mobile Junior",
     "empresa": "DataCorp",
     "local": "São Paulo",
     "nivel": "estagio",
-    "descricao": "Apoiar no desenvolvimento de APIs com Python e Flask e integração com banco de dados.",
-    "skills": ["python", "flask"],
-    "diferenciais": ["api rest", "sql"],
-    "salario": "R$ 1.500"
+    "descricao": "Vaga de desenvolvedor mobile junior atuando com desenvolvimento de software.",
+    "skills": [
+      "html",
+      "react",
+      "node",
+      "docker"
+    ],
+    "diferenciais": [
+      "pandas",
+      "figma",
+      "scrum"
+    ],
+    "salario": "R$ 1349"
   },
   {
-    "titulo": "Desenvolvedor Java Júnior",
-    "empresa": "Enterprise Systems",
+    "titulo": "Backend Junior",
+    "empresa": "CodeFactory",
+    "local": "Remoto",
+    "nivel": "junior",
+    "descricao": "Vaga de backend junior atuando com desenvolvimento de software.",
+    "skills": [
+      "react",
+      "sql",
+      "css"
+    ],
+    "diferenciais": [
+      "figma"
+    ],
+    "salario": "R$ 2390"
+  },
+  {
+    "titulo": "Desenvolvedor Java Junior",
+    "empresa": "CloudNet",
+    "local": "Curitiba",
+    "nivel": "estagio",
+    "descricao": "Vaga de desenvolvedor java junior atuando com desenvolvimento de software.",
+    "skills": [
+      "excel",
+      "git"
+    ],
+    "diferenciais": [
+      "scrum"
+    ],
+    "salario": "R$ 2606"
+  },
+  {
+    "titulo": "Desenvolvedor Mobile Junior",
+    "empresa": "NextSoft",
+    "local": "Belo Horizonte",
+    "nivel": "estagio",
+    "descricao": "Vaga de desenvolvedor mobile junior atuando com desenvolvimento de software.",
+    "skills": [
+      "git",
+      "css",
+      "python",
+      "react"
+    ],
+    "diferenciais": [
+      "figma"
+    ],
+    "salario": "R$ 2271"
+  },
+  {
+    "titulo": "Estágio QA Tester",
+    "empresa": "CloudNet",
+    "local": "Curitiba",
+    "nivel": "estagio",
+    "descricao": "Vaga de estágio qa tester atuando com desenvolvimento de software.",
+    "skills": [
+      "node",
+      "java",
+      "javascript",
+      "html"
+    ],
+    "diferenciais": [
+      "oop"
+    ],
+    "salario": "R$ 3746"
+  },
+  {
+    "titulo": "Estágio Backend",
+    "empresa": "StartupX",
+    "local": "São Paulo",
+    "nivel": "junior",
+    "descricao": "Vaga de estágio backend atuando com desenvolvimento de software.",
+    "skills": [
+      "java",
+      "javascript",
+      "excel",
+      "react"
+    ],
+    "diferenciais": [
+      "api rest",
+      "oop"
+    ],
+    "salario": "R$ 4949"
+  },
+  {
+    "titulo": "Full Stack Junior",
+    "empresa": "DevHouse",
     "local": "Belo Horizonte",
     "nivel": "junior",
-    "descricao": "Desenvolvimento e manutenção de sistemas utilizando Java e orientação a objetos.",
-    "skills": ["java"],
-    "diferenciais": ["spring", "oop"],
-    "salario": "R$ 3.000"
+    "descricao": "Vaga de full stack junior atuando com desenvolvimento de software.",
+    "skills": [
+      "node",
+      "css",
+      "react",
+      "docker"
+    ],
+    "diferenciais": [
+      "figma"
+    ],
+    "salario": "R$ 2147"
   },
   {
-    "titulo": "Desenvolvedor Full Stack",
+    "titulo": "Estágio Backend",
+    "empresa": "InsightLab",
+    "local": "Belo Horizonte",
+    "nivel": "estagio",
+    "descricao": "Vaga de estágio backend atuando com desenvolvimento de software.",
+    "skills": [
+      "css",
+      "flask",
+      "git",
+      "javascript"
+    ],
+    "diferenciais": [
+      "oop",
+      "agile"
+    ],
+    "salario": "R$ 3297"
+  },
+  {
+    "titulo": "Desenvolvedor Python Junior",
     "empresa": "StartupX",
-    "local": "Remoto",
+    "local": "São Paulo",
     "nivel": "junior",
-    "descricao": "Atuar no desenvolvimento frontend e backend de aplicações web completas.",
-    "skills": ["html", "css", "javascript", "python", "flask"],
-    "diferenciais": ["react", "git"],
-    "salario": "R$ 3.500"
+    "descricao": "Vaga de desenvolvedor python junior atuando com desenvolvimento de software.",
+    "skills": [
+      "sql",
+      "excel",
+      "java",
+      "python"
+    ],
+    "diferenciais": [
+      "api rest"
+    ],
+    "salario": "R$ 1507"
   },
   {
-    "titulo": "Estágio em Dados",
-    "empresa": "Data Insights",
+    "titulo": "Estágio Backend",
+    "empresa": "NextSoft",
+    "local": "Rio de Janeiro",
+    "nivel": "junior",
+    "descricao": "Vaga de estágio backend atuando com desenvolvimento de software.",
+    "skills": [
+      "git",
+      "css",
+      "excel",
+      "node"
+    ],
+    "diferenciais": [
+      "pandas",
+      "responsividade"
+    ],
+    "salario": "R$ 3834"
+  },
+  {
+    "titulo": "Estágio Frontend",
+    "empresa": "Pixel Studio",
     "local": "Remoto",
     "nivel": "estagio",
-    "descricao": "Auxiliar na análise de dados e consultas em banco utilizando SQL.",
-    "skills": ["sql"],
-    "diferenciais": ["excel", "python"],
-    "salario": "R$ 1.300"
+    "descricao": "Vaga de estágio frontend atuando com desenvolvimento de software.",
+    "skills": [
+      "docker",
+      "excel",
+      "git"
+    ],
+    "diferenciais": [
+      "oop",
+      "clean code"
+    ],
+    "salario": "R$ 2179"
+  },
+  {
+    "titulo": "Frontend Junior",
+    "empresa": "StartupX",
+    "local": "Rio de Janeiro",
+    "nivel": "estagio",
+    "descricao": "Vaga de frontend junior atuando com desenvolvimento de software.",
+    "skills": [
+      "sql",
+      "javascript",
+      "react",
+      "node"
+    ],
+    "diferenciais": [
+      "scrum",
+      "clean code"
+    ],
+    "salario": "R$ 1514"
+  },
+  {
+    "titulo": "Frontend Junior",
+    "empresa": "NextSoft",
+    "local": "Remoto",
+    "nivel": "junior",
+    "descricao": "Vaga de frontend junior atuando com desenvolvimento de software.",
+    "skills": [
+      "javascript",
+      "git",
+      "html"
+    ],
+    "diferenciais": [
+      "power bi",
+      "agile"
+    ],
+    "salario": "R$ 3110"
+  },
+  {
+    "titulo": "Desenvolvedor Java Junior",
+    "empresa": "CodeFactory",
+    "local": "Rio de Janeiro",
+    "nivel": "estagio",
+    "descricao": "Vaga de desenvolvedor java junior atuando com desenvolvimento de software.",
+    "skills": [
+      "python",
+      "excel",
+      "git"
+    ],
+    "diferenciais": [
+      "agile",
+      "responsividade",
+      "figma"
+    ],
+    "salario": "R$ 2505"
+  },
+  {
+    "titulo": "Backend Junior",
+    "empresa": "WebTech",
+    "local": "Belo Horizonte",
+    "nivel": "estagio",
+    "descricao": "Vaga de backend junior atuando com desenvolvimento de software.",
+    "skills": [
+      "docker",
+      "javascript",
+      "css"
+    ],
+    "diferenciais": [
+      "power bi"
+    ],
+    "salario": "R$ 3232"
+  },
+  {
+    "titulo": "Estágio Backend",
+    "empresa": "CloudNet",
+    "local": "Rio de Janeiro",
+    "nivel": "estagio",
+    "descricao": "Vaga de estágio backend atuando com desenvolvimento de software.",
+    "skills": [
+      "javascript",
+      "react"
+    ],
+    "diferenciais": [
+      "oop",
+      "clean code",
+      "testes"
+    ],
+    "salario": "R$ 3421"
+  },
+  {
+    "titulo": "Full Stack Junior",
+    "empresa": "InsightLab",
+    "local": "Belo Horizonte",
+    "nivel": "junior",
+    "descricao": "Vaga de full stack junior atuando com desenvolvimento de software.",
+    "skills": [
+      "docker",
+      "html",
+      "node",
+      "flask"
+    ],
+    "diferenciais": [
+      "responsividade"
+    ],
+    "salario": "R$ 3229"
+  },
+  {
+    "titulo": "Desenvolvedor Mobile Junior",
+    "empresa": "StartupX",
+    "local": "Florianópolis",
+    "nivel": "estagio",
+    "descricao": "Vaga de desenvolvedor mobile junior atuando com desenvolvimento de software.",
+    "skills": [
+      "react",
+      "javascript",
+      "css",
+      "java"
+    ],
+    "diferenciais": [
+      "pandas",
+      "testes"
+    ],
+    "salario": "R$ 3335"
+  },
+  {
+    "titulo": "Estágio QA Tester",
+    "empresa": "DevHouse",
+    "local": "Remoto",
+    "nivel": "junior",
+    "descricao": "Vaga de estágio qa tester atuando com desenvolvimento de software.",
+    "skills": [
+      "sql",
+      "html",
+      "javascript"
+    ],
+    "diferenciais": [
+      "clean code",
+      "responsividade",
+      "api rest"
+    ],
+    "salario": "R$ 4923"
+  },
+  {
+    "titulo": "Analista de Dados Junior",
+    "empresa": "WebTech",
+    "local": "São Paulo",
+    "nivel": "junior",
+    "descricao": "Vaga de analista de dados junior atuando com desenvolvimento de software.",
+    "skills": [
+      "javascript",
+      "java",
+      "node"
+    ],
+    "diferenciais": [
+      "scrum",
+      "agile"
+    ],
+    "salario": "R$ 4415"
+  },
+  {
+    "titulo": "Desenvolvedor Python Junior",
+    "empresa": "DataCorp",
+    "local": "São Paulo",
+    "nivel": "junior",
+    "descricao": "Vaga de desenvolvedor python junior atuando com desenvolvimento de software.",
+    "skills": [
+      "node",
+      "css",
+      "git"
+    ],
+    "diferenciais": [
+      "figma",
+      "oop",
+      "clean code"
+    ],
+    "salario": "R$ 1931"
+  },
+  {
+    "titulo": "Full Stack Junior",
+    "empresa": "Tech Solutions",
+    "local": "Curitiba",
+    "nivel": "junior",
+    "descricao": "Vaga de full stack junior atuando com desenvolvimento de software.",
+    "skills": [
+      "git",
+      "flask",
+      "sql",
+      "node"
+    ],
+    "diferenciais": [
+      "figma",
+      "clean code",
+      "power bi"
+    ],
+    "salario": "R$ 3273"
+  },
+  {
+    "titulo": "Desenvolvedor Mobile Junior",
+    "empresa": "WebTech",
+    "local": "Remoto",
+    "nivel": "junior",
+    "descricao": "Vaga de desenvolvedor mobile junior atuando com desenvolvimento de software.",
+    "skills": [
+      "flask",
+      "git"
+    ],
+    "diferenciais": [
+      "pandas",
+      "power bi",
+      "responsividade"
+    ],
+    "salario": "R$ 4517"
+  },
+  {
+    "titulo": "Frontend Junior",
+    "empresa": "Tech Solutions",
+    "local": "Rio de Janeiro",
+    "nivel": "estagio",
+    "descricao": "Vaga de frontend junior atuando com desenvolvimento de software.",
+    "skills": [
+      "python",
+      "docker",
+      "javascript"
+    ],
+    "diferenciais": [
+      "oop",
+      "agile",
+      "testes"
+    ],
+    "salario": "R$ 4219"
+  },
+  {
+    "titulo": "Frontend Junior",
+    "empresa": "CloudNet",
+    "local": "Belo Horizonte",
+    "nivel": "junior",
+    "descricao": "Vaga de frontend junior atuando com desenvolvimento de software.",
+    "skills": [
+      "css",
+      "git",
+      "html",
+      "java"
+    ],
+    "diferenciais": [
+      "scrum",
+      "power bi",
+      "responsividade"
+    ],
+    "salario": "R$ 1434"
+  },
+  {
+    "titulo": "Frontend Junior",
+    "empresa": "DevHouse",
+    "local": "Rio de Janeiro",
+    "nivel": "estagio",
+    "descricao": "Vaga de frontend junior atuando com desenvolvimento de software.",
+    "skills": [
+      "docker",
+      "css",
+      "node"
+    ],
+    "diferenciais": [
+      "figma",
+      "testes",
+      "responsividade"
+    ],
+    "salario": "R$ 2641"
+  },
+  {
+    "titulo": "Desenvolvedor Mobile Junior",
+    "empresa": "Tech Solutions",
+    "local": "Belo Horizonte",
+    "nivel": "junior",
+    "descricao": "Vaga de desenvolvedor mobile junior atuando com desenvolvimento de software.",
+    "skills": [
+      "git",
+      "docker"
+    ],
+    "diferenciais": [
+      "clean code",
+      "figma",
+      "oop"
+    ],
+    "salario": "R$ 4756"
+  },
+  {
+    "titulo": "Desenvolvedor Mobile Junior",
+    "empresa": "CodeFactory",
+    "local": "Curitiba",
+    "nivel": "estagio",
+    "descricao": "Vaga de desenvolvedor mobile junior atuando com desenvolvimento de software.",
+    "skills": [
+      "docker",
+      "css"
+    ],
+    "diferenciais": [
+      "api rest",
+      "agile"
+    ],
+    "salario": "R$ 2080"
+  },
+  {
+    "titulo": "Desenvolvedor Mobile Junior",
+    "empresa": "CloudNet",
+    "local": "Rio de Janeiro",
+    "nivel": "estagio",
+    "descricao": "Vaga de desenvolvedor mobile junior atuando com desenvolvimento de software.",
+    "skills": [
+      "java",
+      "sql"
+    ],
+    "diferenciais": [
+      "responsividade",
+      "agile",
+      "power bi"
+    ],
+    "salario": "R$ 4641"
+  },
+  {
+    "titulo": "Desenvolvedor Mobile Junior",
+    "empresa": "DevHouse",
+    "local": "Rio de Janeiro",
+    "nivel": "junior",
+    "descricao": "Vaga de desenvolvedor mobile junior atuando com desenvolvimento de software.",
+    "skills": [
+      "css",
+      "react",
+      "excel"
+    ],
+    "diferenciais": [
+      "oop",
+      "agile"
+    ],
+    "salario": "R$ 2694"
+  },
+  {
+    "titulo": "Full Stack Junior",
+    "empresa": "DevHouse",
+    "local": "Belo Horizonte",
+    "nivel": "junior",
+    "descricao": "Vaga de full stack junior atuando com desenvolvimento de software.",
+    "skills": [
+      "javascript",
+      "css"
+    ],
+    "diferenciais": [
+      "api rest",
+      "scrum"
+    ],
+    "salario": "R$ 1424"
+  },
+  {
+    "titulo": "Analista de Dados Junior",
+    "empresa": "DataCorp",
+    "local": "Rio de Janeiro",
+    "nivel": "junior",
+    "descricao": "Vaga de analista de dados junior atuando com desenvolvimento de software.",
+    "skills": [
+      "react",
+      "javascript",
+      "python"
+    ],
+    "diferenciais": [
+      "power bi",
+      "agile"
+    ],
+    "salario": "R$ 1989"
+  },
+  {
+    "titulo": "Frontend Junior",
+    "empresa": "StartupX",
+    "local": "Rio de Janeiro",
+    "nivel": "junior",
+    "descricao": "Vaga de frontend junior atuando com desenvolvimento de software.",
+    "skills": [
+      "java",
+      "javascript",
+      "html"
+    ],
+    "diferenciais": [
+      "agile"
+    ],
+    "salario": "R$ 2313"
+  },
+  {
+    "titulo": "Full Stack Junior",
+    "empresa": "StartupX",
+    "local": "São Paulo",
+    "nivel": "estagio",
+    "descricao": "Vaga de full stack junior atuando com desenvolvimento de software.",
+    "skills": [
+      "java",
+      "sql",
+      "react"
+    ],
+    "diferenciais": [
+      "api rest"
+    ],
+    "salario": "R$ 4948"
+  },
+  {
+    "titulo": "Full Stack Junior",
+    "empresa": "DataCorp",
+    "local": "Remoto",
+    "nivel": "junior",
+    "descricao": "Vaga de full stack junior atuando com desenvolvimento de software.",
+    "skills": [
+      "git",
+      "node",
+      "javascript",
+      "java"
+    ],
+    "diferenciais": [
+      "clean code",
+      "testes"
+    ],
+    "salario": "R$ 1957"
+  },
+  {
+    "titulo": "Estágio QA Tester",
+    "empresa": "CodeFactory",
+    "local": "Florianópolis",
+    "nivel": "junior",
+    "descricao": "Vaga de estágio qa tester atuando com desenvolvimento de software.",
+    "skills": [
+      "excel",
+      "react",
+      "html",
+      "sql"
+    ],
+    "diferenciais": [
+      "testes",
+      "responsividade"
+    ],
+    "salario": "R$ 2954"
+  },
+  {
+    "titulo": "Desenvolvedor Java Junior",
+    "empresa": "WebTech",
+    "local": "Remoto",
+    "nivel": "junior",
+    "descricao": "Vaga de desenvolvedor java junior atuando com desenvolvimento de software.",
+    "skills": [
+      "javascript",
+      "html"
+    ],
+    "diferenciais": [
+      "power bi",
+      "api rest"
+    ],
+    "salario": "R$ 1619"
+  },
+  {
+    "titulo": "Estágio QA Tester",
+    "empresa": "InsightLab",
+    "local": "Florianópolis",
+    "nivel": "junior",
+    "descricao": "Vaga de estágio qa tester atuando com desenvolvimento de software.",
+    "skills": [
+      "flask",
+      "react"
+    ],
+    "diferenciais": [
+      "testes"
+    ],
+    "salario": "R$ 1703"
+  },
+  {
+    "titulo": "Estágio Frontend",
+    "empresa": "CodeFactory",
+    "local": "Belo Horizonte",
+    "nivel": "junior",
+    "descricao": "Vaga de estágio frontend atuando com desenvolvimento de software.",
+    "skills": [
+      "css",
+      "python"
+    ],
+    "diferenciais": [
+      "figma",
+      "agile",
+      "responsividade"
+    ],
+    "salario": "R$ 2245"
+  },
+  {
+    "titulo": "Desenvolvedor Mobile Junior",
+    "empresa": "CodeFactory",
+    "local": "São Paulo",
+    "nivel": "junior",
+    "descricao": "Vaga de desenvolvedor mobile junior atuando com desenvolvimento de software.",
+    "skills": [
+      "node",
+      "java"
+    ],
+    "diferenciais": [
+      "agile",
+      "oop"
+    ],
+    "salario": "R$ 3813"
+  },
+  {
+    "titulo": "Desenvolvedor Python Junior",
+    "empresa": "CodeFactory",
+    "local": "São Paulo",
+    "nivel": "estagio",
+    "descricao": "Vaga de desenvolvedor python junior atuando com desenvolvimento de software.",
+    "skills": [
+      "css",
+      "docker",
+      "git",
+      "python"
+    ],
+    "diferenciais": [
+      "testes",
+      "api rest"
+    ],
+    "salario": "R$ 3076"
+  },
+  {
+    "titulo": "Estágio Frontend",
+    "empresa": "StartupX",
+    "local": "Rio de Janeiro",
+    "nivel": "junior",
+    "descricao": "Vaga de estágio frontend atuando com desenvolvimento de software.",
+    "skills": [
+      "html",
+      "css",
+      "react",
+      "flask"
+    ],
+    "diferenciais": [
+      "scrum",
+      "api rest"
+    ],
+    "salario": "R$ 4347"
+  },
+  {
+    "titulo": "Desenvolvedor Java Junior",
+    "empresa": "NextSoft",
+    "local": "Curitiba",
+    "nivel": "junior",
+    "descricao": "Vaga de desenvolvedor java junior atuando com desenvolvimento de software.",
+    "skills": [
+      "excel",
+      "react",
+      "node",
+      "docker"
+    ],
+    "diferenciais": [
+      "testes",
+      "scrum"
+    ],
+    "salario": "R$ 2166"
+  },
+  {
+    "titulo": "Estágio QA Tester",
+    "empresa": "InsightLab",
+    "local": "Florianópolis",
+    "nivel": "estagio",
+    "descricao": "Vaga de estágio qa tester atuando com desenvolvimento de software.",
+    "skills": [
+      "flask",
+      "javascript",
+      "sql",
+      "python"
+    ],
+    "diferenciais": [
+      "power bi",
+      "api rest"
+    ],
+    "salario": "R$ 1400"
+  },
+  {
+    "titulo": "Desenvolvedor Python Junior",
+    "empresa": "StartupX",
+    "local": "Florianópolis",
+    "nivel": "junior",
+    "descricao": "Vaga de desenvolvedor python junior atuando com desenvolvimento de software.",
+    "skills": [
+      "react",
+      "node",
+      "sql",
+      "excel"
+    ],
+    "diferenciais": [
+      "scrum"
+    ],
+    "salario": "R$ 2997"
+  },
+  {
+    "titulo": "Estágio Backend",
+    "empresa": "DataCorp",
+    "local": "Belo Horizonte",
+    "nivel": "estagio",
+    "descricao": "Vaga de estágio backend atuando com desenvolvimento de software.",
+    "skills": [
+      "java",
+      "html",
+      "react"
+    ],
+    "diferenciais": [
+      "clean code"
+    ],
+    "salario": "R$ 3191"
+  },
+  {
+    "titulo": "Estágio Frontend",
+    "empresa": "DataCorp",
+    "local": "Florianópolis",
+    "nivel": "junior",
+    "descricao": "Vaga de estágio frontend atuando com desenvolvimento de software.",
+    "skills": [
+      "excel",
+      "java"
+    ],
+    "diferenciais": [
+      "power bi"
+    ],
+    "salario": "R$ 1587"
+  },
+  {
+    "titulo": "Analista de Dados Junior",
+    "empresa": "WebTech",
+    "local": "Curitiba",
+    "nivel": "estagio",
+    "descricao": "Vaga de analista de dados junior atuando com desenvolvimento de software.",
+    "skills": [
+      "java",
+      "docker",
+      "react",
+      "javascript"
+    ],
+    "diferenciais": [
+      "testes",
+      "power bi",
+      "api rest"
+    ],
+    "salario": "R$ 3432"
+  },
+  {
+    "titulo": "Estágio QA Tester",
+    "empresa": "WebTech",
+    "local": "Belo Horizonte",
+    "nivel": "estagio",
+    "descricao": "Vaga de estágio qa tester atuando com desenvolvimento de software.",
+    "skills": [
+      "javascript",
+      "excel"
+    ],
+    "diferenciais": [
+      "figma"
+    ],
+    "salario": "R$ 4037"
+  },
+  {
+    "titulo": "Frontend Junior",
+    "empresa": "Pixel Studio",
+    "local": "Rio de Janeiro",
+    "nivel": "junior",
+    "descricao": "Vaga de frontend junior atuando com desenvolvimento de software.",
+    "skills": [
+      "git",
+      "css"
+    ],
+    "diferenciais": [
+      "responsividade",
+      "power bi"
+    ],
+    "salario": "R$ 2777"
+  },
+  {
+    "titulo": "Analista de Dados Junior",
+    "empresa": "CloudNet",
+    "local": "Florianópolis",
+    "nivel": "junior",
+    "descricao": "Vaga de analista de dados junior atuando com desenvolvimento de software.",
+    "skills": [
+      "react",
+      "git"
+    ],
+    "diferenciais": [
+      "agile",
+      "figma"
+    ],
+    "salario": "R$ 3618"
+  },
+  {
+    "titulo": "Desenvolvedor Python Junior",
+    "empresa": "DataCorp",
+    "local": "Rio de Janeiro",
+    "nivel": "estagio",
+    "descricao": "Vaga de desenvolvedor python junior atuando com desenvolvimento de software.",
+    "skills": [
+      "excel",
+      "html",
+      "react",
+      "node"
+    ],
+    "diferenciais": [
+      "pandas",
+      "agile",
+      "responsividade"
+    ],
+    "salario": "R$ 2577"
+  },
+  {
+    "titulo": "Analista de Dados Junior",
+    "empresa": "CodeFactory",
+    "local": "Rio de Janeiro",
+    "nivel": "estagio",
+    "descricao": "Vaga de analista de dados junior atuando com desenvolvimento de software.",
+    "skills": [
+      "excel",
+      "python",
+      "git",
+      "javascript"
+    ],
+    "diferenciais": [
+      "clean code",
+      "api rest",
+      "pandas"
+    ],
+    "salario": "R$ 3475"
+  },
+  {
+    "titulo": "Desenvolvedor Java Junior",
+    "empresa": "CodeFactory",
+    "local": "Belo Horizonte",
+    "nivel": "junior",
+    "descricao": "Vaga de desenvolvedor java junior atuando com desenvolvimento de software.",
+    "skills": [
+      "flask",
+      "javascript",
+      "python",
+      "git"
+    ],
+    "diferenciais": [
+      "responsividade"
+    ],
+    "salario": "R$ 3812"
+  },
+  {
+    "titulo": "Estágio Frontend",
+    "empresa": "InsightLab",
+    "local": "Remoto",
+    "nivel": "junior",
+    "descricao": "Vaga de estágio frontend atuando com desenvolvimento de software.",
+    "skills": [
+      "excel",
+      "sql",
+      "flask"
+    ],
+    "diferenciais": [
+      "pandas",
+      "scrum",
+      "api rest"
+    ],
+    "salario": "R$ 1373"
+  },
+  {
+    "titulo": "Desenvolvedor Mobile Junior",
+    "empresa": "StartupX",
+    "local": "Rio de Janeiro",
+    "nivel": "junior",
+    "descricao": "Vaga de desenvolvedor mobile junior atuando com desenvolvimento de software.",
+    "skills": [
+      "excel",
+      "react",
+      "docker"
+    ],
+    "diferenciais": [
+      "clean code",
+      "scrum"
+    ],
+    "salario": "R$ 2275"
+  },
+  {
+    "titulo": "Estágio Frontend",
+    "empresa": "DataCorp",
+    "local": "Curitiba",
+    "nivel": "junior",
+    "descricao": "Vaga de estágio frontend atuando com desenvolvimento de software.",
+    "skills": [
+      "html",
+      "python"
+    ],
+    "diferenciais": [
+      "figma"
+    ],
+    "salario": "R$ 1660"
+  },
+  {
+    "titulo": "Backend Junior",
+    "empresa": "NextSoft",
+    "local": "São Paulo",
+    "nivel": "junior",
+    "descricao": "Vaga de backend junior atuando com desenvolvimento de software.",
+    "skills": [
+      "java",
+      "css"
+    ],
+    "diferenciais": [
+      "api rest",
+      "clean code"
+    ],
+    "salario": "R$ 3019"
+  },
+  {
+    "titulo": "Analista de Dados Junior",
+    "empresa": "WebTech",
+    "local": "Curitiba",
+    "nivel": "junior",
+    "descricao": "Vaga de analista de dados junior atuando com desenvolvimento de software.",
+    "skills": [
+      "git",
+      "css",
+      "java"
+    ],
+    "diferenciais": [
+      "agile"
+    ],
+    "salario": "R$ 4147"
+  },
+  {
+    "titulo": "Full Stack Junior",
+    "empresa": "InsightLab",
+    "local": "Curitiba",
+    "nivel": "estagio",
+    "descricao": "Vaga de full stack junior atuando com desenvolvimento de software.",
+    "skills": [
+      "flask",
+      "javascript",
+      "css",
+      "python"
+    ],
+    "diferenciais": [
+      "api rest",
+      "testes",
+      "oop"
+    ],
+    "salario": "R$ 1329"
+  },
+  {
+    "titulo": "Frontend Junior",
+    "empresa": "NextSoft",
+    "local": "São Paulo",
+    "nivel": "junior",
+    "descricao": "Vaga de frontend junior atuando com desenvolvimento de software.",
+    "skills": [
+      "java",
+      "python"
+    ],
+    "diferenciais": [
+      "oop"
+    ],
+    "salario": "R$ 2859"
+  },
+  {
+    "titulo": "Estágio Backend",
+    "empresa": "Pixel Studio",
+    "local": "Rio de Janeiro",
+    "nivel": "estagio",
+    "descricao": "Vaga de estágio backend atuando com desenvolvimento de software.",
+    "skills": [
+      "react",
+      "javascript"
+    ],
+    "diferenciais": [
+      "pandas",
+      "oop",
+      "api rest"
+    ],
+    "salario": "R$ 2548"
+  },
+  {
+    "titulo": "Full Stack Junior",
+    "empresa": "CloudNet",
+    "local": "Florianópolis",
+    "nivel": "estagio",
+    "descricao": "Vaga de full stack junior atuando com desenvolvimento de software.",
+    "skills": [
+      "docker",
+      "excel"
+    ],
+    "diferenciais": [
+      "pandas",
+      "clean code",
+      "api rest"
+    ],
+    "salario": "R$ 1931"
+  },
+  {
+    "titulo": "Frontend Junior",
+    "empresa": "DevHouse",
+    "local": "São Paulo",
+    "nivel": "junior",
+    "descricao": "Vaga de frontend junior atuando com desenvolvimento de software.",
+    "skills": [
+      "excel",
+      "css"
+    ],
+    "diferenciais": [
+      "oop",
+      "agile",
+      "api rest"
+    ],
+    "salario": "R$ 2823"
+  },
+  {
+    "titulo": "Estágio Backend",
+    "empresa": "WebTech",
+    "local": "Curitiba",
+    "nivel": "junior",
+    "descricao": "Vaga de estágio backend atuando com desenvolvimento de software.",
+    "skills": [
+      "flask",
+      "excel",
+      "java",
+      "node"
+    ],
+    "diferenciais": [
+      "power bi",
+      "responsividade"
+    ],
+    "salario": "R$ 3352"
   }
 ]
