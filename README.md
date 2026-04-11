@@ -4,6 +4,7 @@ Sistema de busca e recomendação de vagas baseado em compatibilidade de skills.
 
 O projeto foi desenvolvido como prática de lógica de programação, manipulação de dados e integração entre frontend e backend utilizando Python (Flask) e JavaScript.
 
+🔗 Acesse o projeto online: https://match-vagas.onrender.com
 ---
 
 ## Funcionalidades
